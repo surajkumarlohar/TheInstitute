@@ -1,0 +1,58 @@
+@media only screen and (max-width: 800px){
+    .logo{
+        width: 60%;
+    }
+    .secondHalf{
+        width: 60%;
+    }
+    .itemImg{
+        width: 70%
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .navbar{ 
+        flex-direction: column;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .logo{
+        width: 30%;
+    }
+    .rightNavbar{
+        flex-direction: column;
+    }
+    .mainBox{
+        flex-direction: column-reverse;
+        max-width: 100%
+    }
+    .firstHalf{
+        width: 85%;
+    }
+    .bigText{
+        font-size: 2.8rem;
+    }
+    .smallText{
+        font-size: 1.5rem;
+    }
+    .secondHalf{
+        width: 45%;
+    }
+    .serviceItem{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .itemPara{
+        width: 85%;
+    }
+    .itemParaHeading{
+        font-size: 2.3rem;
+    }
+    .itemParaCont{
+        font-size: 1.4rem;
+    }
+    .itemImg{
+        width: 50%;
+    }
+}
